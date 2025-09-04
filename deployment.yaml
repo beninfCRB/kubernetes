@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: react
-        image: registry.gitlab.com/beninfcrb/ladama/react-app:v1
+        image: registry.gitlab.com/beninfcrb/ladama
         # imagePullPolicy: Never
         ports:
         - containerPort: 80
